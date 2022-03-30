@@ -14,6 +14,10 @@ There is a seperate section to add Hardware Options such as:
 Brand of strings, Pickup Type, Tuner Type and Has a Case.
 
 User Flow:
-![Screen Shot 2022-03-29 at 9 04 13 PM](https://user-images.githubusercontent.com/91999893/160749177-66b8d9b7-9c2e-4916-a712-a64a12e00e81.png)
+
+![Screen Shot 2022-03-29 at 9 08 47 PM](https://user-images.githubusercontent.com/91999893/160749557-245d7161-c467-42ad-a2e1-7dbec2b39c5c.png)
 
 
+Utilzing Django's framework, there will be a model for the User, Guitars and Hardware Options:
+
+![Screen Shot 2022-03-29 at 9 22 21 PM](https://user-images.githubusercontent.com/91999893/160750895-1242c5d6-051a-4a64-b3b8-7582b684579b.png)
