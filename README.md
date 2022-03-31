@@ -1,4 +1,4 @@
-# Django-Guitars
+# 🎸 Django-Guitars 🎸
 
 An application where users may post their guitars and/or basses up for selling or trading.
 
