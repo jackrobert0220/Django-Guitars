@@ -1,24 +1,26 @@
 # 🎸 Django-Guitars 🎸
 
-An application where users may post their guitars and/or basses up for selling or trading.
+----------------------------------------------------------------------------------------------------------
 
-Create a login to begin posting your guitar/bass collection online for others to check out.
+🎸 An application where users may post their guitars and/or basses up for selling or trading.
 
-Once logged in, user will gain the ability to post to their profile of 
-their guitar along with its attributes: 
-Brand, Model, Year, Price, Number of Strings, Color and an Image.
+🎸 Create a login to begin posting your guitar/bass collection online for others to check out.
 
-The user's guitar will be added to the master list of all user's guitars.
+🎸 Once logged in, user will gain the ability to post to their profile of 
+   their guitar along with its attributes: 
+   Brand, Model, Year, Price, Number of Strings, Color and an Image.
 
-There is a seperate section to add Hardware Options such as:
-Brand of strings, Pickup Type, Tuner Type and Has a Case.
+🎸 The user's guitar will be added to the master list of all user's guitars.
 
-After posting either Guitars and/or Hardware Options, the user will 
-have the ability to UPDATE and DELETE their POSTS.
+🎸 There is a seperate section to add Hardware Options such as:
+   Brand of strings, Pickup Type, Tuner Type and Has a Case.
 
-An Input box to email an offer to a Guitar's owner will be available on each Guitar page.
+🎸 After posting either Guitars and/or Hardware Options, the user will 
+   have the ability to UPDATE and DELETE their POSTS.
 
-User must be logged in to utilize the above-mentioned functions.
+🎸 An Input box to email an offer to a Guitar's owner will be available on each Guitar page.
+
+🎸 User must be logged in to utilize the above-mentioned functions.
 
 ----------------------------------------------------------------------------------------------------------
 
