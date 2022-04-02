@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Django Guitars List
+{% endblock %}
+
+{% block content %}
+    <h1>Our Guitars:</h1>
+        {% for guitar in guitars %}
+        <h3>Brand: {{guitar.brand}}</h3>
+        <h3>Model: {{guitar.model}}</h3>
+        <h3>Year: {{guitar.year}}</h3>
+        <h3>Price: {{guitar.price}}</h3>
+        <h3>Number of Strings: {{guitar.string_count}}</h3>
+        <h3>Color: {{guitar.color}}</h3>
+        
+        {% endfor %}
+{% endblock %}
