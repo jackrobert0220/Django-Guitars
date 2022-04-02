@@ -17,4 +17,4 @@ class Guitar(models.Model):
         return self.brand
 
     class Meta:
-        oredering = ['brand']
+        ordering = ['brand']
