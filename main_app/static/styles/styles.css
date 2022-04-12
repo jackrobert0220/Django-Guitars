@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+a:not(.nav-link) {
+    color:#d99a30 !important;
+ }
+ 
+ a:not(.nav-link):hover, a:not(.nav-link):visited{
+    color:#37404e !important;
+ }
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    font-size: large;
+}
+
+.card {
+    margin: 40px;
+}
+
+.user-link {
+    display:block;
+}
+
+.blockquote {
+    max-width: 400px;
+    margin-top: 2em;
+}
+

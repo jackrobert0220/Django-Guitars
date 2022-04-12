@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1 class="header">🎸 Pickup Details 🎸</h1>
+
+<div class="container d-flex flex-row bd-highlight justify-content-center">
+    <div class="col-md-3 card p-2 bd-highlight" style="width: 30rem;">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ pickup.type }}</li>
+            <li class="list-group-item">Brand: {{ pickup.brand }}</li>
+            <li class="list-group-item">Active: {{ pickup.active }}</li>
+            <li class="list-group-item"><p>Guitars that have these pickups installed:</p>
+            {% for guitar in pickup.guitar_set.all %}
+            <a href="{% url 'guitar_detail' guitar.pk %}">{{guitar.model}}</a>
+            {% empty %}
+                <p>No guitars currently have these pickups.</p>
+            {% endfor %}
+            </li>
+        </ul>
+        <div class="d-flex justify-content-around">
+            <a href="{% url 'pickups_update' pickup.pk %}">
+                <button type="button" class="btn btn-success">Update</button>
+            </a>
+            <a href="{% url 'pickups_delete' pickup.pk %}">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

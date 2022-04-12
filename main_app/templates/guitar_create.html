@@ -1,0 +1,25 @@
+{% extends 'base.html' %} 
+
+
+{% block title %}
+Add a Guitar
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+	<h1 class="header">Add a Guitar</h1>
+	
+<div class="container">
+
+	<form method="post" enctype="multipart/form-data">
+		<!-- Security Feature  -->
+		  {% csrf_token %} 
+		<!--  Generate inputs  -->
+		{{ form|crispy }}
+		<!--  Submit form  -->
+		  <input type="submit" value="Submit" />
+	</form>
+</div>
+
+{% endblock %}

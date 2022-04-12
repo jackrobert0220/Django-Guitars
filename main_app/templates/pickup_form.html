@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Add Pickups
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="d-flex justify-content-center">
+<h1>What type of pickups does your guitar have:</h1>
+</div>
+
+<div class="container">
+    <form action="" method="post">
+        {% csrf_token %}
+
+        {{ form|crispy }}
+        
+        <input type="submit" class="btn btn-primary" value="Submit!">
+    </form>
+</div>
+{% endblock %}
+

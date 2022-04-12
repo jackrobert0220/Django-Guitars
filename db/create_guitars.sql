@@ -1,0 +1,4 @@
+INSERT INTO main_app_guitar(brand, model, year, price, string_count, color, img, created_at)
+VALUES ('Fender', 'Telecaster', 1958, 1776, 6, 'White', 'https://images.reverb.com/image/upload/s--PEcdQYD_--/f_auto,t_large/v1646936242/jubbuq1mc94dcrezmsmd.webp', '04-01-2022' );
+INSERT INTO main_app_guitar(brand, model, year, price, string_count, color, img, created_at)
+VALUES ('Gibson', 'Les Paul', 1957, 2900, 6, 'Cherry Sunburst', 'https://media.sweetwater.com/api/i/f-webp__q-82__ha-74413a6ac4b080ec__hmac-02bd031f9dbd077053a2da38701dae2d138793a6/images/guitars/LPS5HSNH/233610360/233610360-body-large.jpg.auto.webp', '04-01-2022' );

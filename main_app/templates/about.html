@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Django Guitars About
+{% endblock %}
+
+{% block content %}
+
+<h1 class="header">🎸 About Django Guitars 🎸</h1>
+
+
+<div class="d-flex justify-content-center">
+  <blockquote class="blockquote">
+    <p class="mb-0">Django Guitars is a place where avid guitar collectors may share their guitars that they wish to sell or trade.</p>
+    
+  </blockquote>
+</div>
+
+<div class="d-flex justify-content-around">
+    <div class="d-flex justify-content-left">
+      
+        <blockquote class="blockquote"><h2 class="header bold">How to Use Site</h2>
+            <p class="mb-0">Check out all of the current guitar listsings at <a href="/guitars">Home | Guitars</a>. You may upload your own guitar that you wish to sell or trade at the "Add Guitar" link once you have signed up.</p><br>
+            <p class="mb-0">Click on the guitar's image for more details. If you are interested in buying or trading a particular guitar, feel free to contact the owner via the email link at the bottom of the guitar's info card.</p><br>
+            <p class="mb-0"> *Owner Contact links only available to users that are signed in*</p><br>
+            <p class="mb-0">You may look through <a href="/pickups">Pickups</a> and see whcih guitars already have that kind in them under each one's details.</p><br>
+          </blockquote>
+    </div>
+
+    <div class="d-flex justify-content-right">
+      <blockquote class="blockquote"><h2 class="header bold">Harassment Policy</h2>
+          <p class="mb-0">Hatespeech and harassemnt of any kind is not tolerated here in Django Guitars.</p><br>
+          <p class="mb-0">Please be respectful of eachother.</p><br>
+          <p class="mb-0">Django Guitars is meant to be a safe space for everybody. Any offenses should be reported immediately to: <a href='mailto:djangoguitars@djangoguitars.com'>djangoguitars@djangoguitars.com</a></p>
+
+        </blockquote>
+  </div>
+
+</div>
+{% endblock %}
