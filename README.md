@@ -99,6 +99,7 @@ Utilzing Django's framework, there will be models for the User, Guitars and Pick
 
 ![Screen Shot 2022-04-11 at 7 54 31 PM](https://user-images.githubusercontent.com/91999893/162870049-59a69da7-a358-4082-9de4-0a62bcfe8003.png)
 
+![Screen Shot 2022-04-10 at 6 19 40 PM](https://user-images.githubusercontent.com/91999893/167305895-5f1f7091-8da6-4b8d-9001-734f564113d1.png)
 
 
 
